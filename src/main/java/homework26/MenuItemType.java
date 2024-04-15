@@ -5,7 +5,6 @@ public enum MenuItemType {
 DRINK для напитков.
 DISH для блюд.
      */
-
     DRINK("напиток"),
     DISH("блюдо");
 
@@ -14,7 +13,6 @@ DISH для блюд.
     MenuItemType(String description) {
         this.description = description;
     }
-
     public String getDescription() {
         return description;
     }

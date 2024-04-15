@@ -28,7 +28,5 @@ public enum OrderStatus {
               System.out.println("Статус заказа: отменен");
               break;
       }
-
-
     }
 }

@@ -8,6 +8,4 @@ public class TestMenuItem {
         System.out.println("Наименование - " + menuItem1.getName() + ", тип - " + MenuItemType.DRINK.getDescription ());
 
     }
-
-
 }

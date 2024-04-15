@@ -10,6 +10,4 @@ public class TestOderStatus {
         OrderStatus status = OrderStatus.PROCESSING;
         getDescription(status);
            }
-
-
 }

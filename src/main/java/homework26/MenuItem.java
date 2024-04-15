@@ -22,7 +22,6 @@ public class MenuItem {
     public MenuItemType getType() {
         return type;
     }
-
     @Override
     public String toString() {
         return "MenuItem{" +
