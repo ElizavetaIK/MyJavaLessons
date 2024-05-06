@@ -1,5 +1,7 @@
 package lesson26;
 
+import java.security.PublicKey;
+
 public enum Day {
     //можержат внутри себя строго константные значения в виде списка (в строчку или столбик, неважно, главное через ",")
     //добавили описание, тогда около каждой константы должно быть описание. Создали конструктор и геттер
@@ -19,4 +21,5 @@ private String description;
     public String getDescription() {
         return description;
     }
+
 }
