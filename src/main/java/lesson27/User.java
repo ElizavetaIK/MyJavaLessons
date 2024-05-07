@@ -1,0 +1,22 @@
+package lesson27;
+
+public class User {
+   private String name = "Alex";
+   private int age = 20;
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name - '" + name + '\'' +
+                ", age - " + age +
+                '}';
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+}
